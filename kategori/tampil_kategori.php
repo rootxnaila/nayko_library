@@ -32,7 +32,7 @@ include '../config/connection.php';
                 <td><?php echo $no++; ?></td>
                 <td><?php echo $row['nama_kategori']; ?></td>
                 <td>
-                    <a href="edit_kategori.php?id=<?php echo $row['id_kategori']; ?>">Edit</a> | 
+                    <a href="edit_kategori.php?id=<?php echo $row['id_kategori']; ?>">Ed</a> | 
                     <a href="hapus_kategori.php?id=<?php echo $row['id_kategori']; ?>">Delete</a>
                 </td>
             </tr>
