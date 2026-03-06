@@ -8,20 +8,19 @@
         * { box-sizing: border-box; }
         body { font-family: Arial, Helvetica, sans-serif; background-color: #fcfcfc; color: #333; margin: 0; padding: 0; }
         
-        /* Navbar Konsisten */
+        /* consist navbar */
         .navbar { background-color: white; padding: 15px 40px; border-bottom: 1px solid #eaeaea; display: flex; justify-content: space-between; align-items: center; }
         .navbar .logo { font-size: 18px; font-weight: bold; letter-spacing: 1px; }
         .navbar a { text-decoration: none; color: #333; margin-left: 20px; font-size: 14px; }
         .navbar a:hover { text-decoration: underline; }
         
-        /* Container & Header */
+        /* container n header */
         .container { max-width: 1000px; margin: 40px auto; padding: 0 20px; }
         .page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; }
         .page-header h2 { margin: 0; font-weight: normal; }
         .btn-add { background-color: #333; color: white; padding: 10px 18px; text-decoration: none; font-size: 14px; border-radius: 4px; }
         .btn-add:hover { background-color: #555; }
 
-        /* Grid Kartu Master Data */
         .item-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
         .item-card { background-color: white; border: 1px solid #eaeaea; padding: 20px; border-radius: 6px; text-align: center; }
         .item-card h3 { margin: 0 0 15px; font-size: 16px; font-weight: normal; color: #111; }

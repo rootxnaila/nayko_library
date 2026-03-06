@@ -13,7 +13,7 @@
             margin: 0; padding: 0; 
         }
 
-        /* Navbar */
+        
         .navbar {
             background-color: white; padding: 15px 40px;
             border-bottom: 1px solid #eaeaea;
@@ -23,9 +23,9 @@
         .navbar a { text-decoration: none; color: #333; margin-left: 20px; font-size: 14px; }
         .navbar a:hover { text-decoration: underline; }
 
-        /* Form Container Minimalis */
+        
         .container {
-            max-width: 600px; /* Dibuat lebih sempit agar rapi untuk form */
+            max-width: 600px; 
             margin: 40px auto;
             background: white;
             padding: 30px 40px;
@@ -35,7 +35,7 @@
 
         .container h2 { margin-top: 0; margin-bottom: 25px; font-weight: normal; }
 
-        /* Style Input & Select */
+        /* style input select */
         form label {
             display: block; font-size: 13px; color: #666; margin-bottom: 5px;
         }
@@ -49,7 +49,7 @@
             outline: none; border-color: #999; background-color: white;
         }
 
-        /* Tombol */
+        /* button */
         .btn-submit {
             background-color: #333; color: white; padding: 10px 20px;
             border: none; border-radius: 4px; cursor: pointer; font-size: 14px;

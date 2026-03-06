@@ -25,7 +25,7 @@
         .btn-cancel:hover { text-decoration: underline; color: #333; }
     </style>
 </head>
-<body>
+<body> 
 
     <div class="navbar">
         <div class="logo">NAYKO.LIB</div>

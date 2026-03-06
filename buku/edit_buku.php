@@ -10,7 +10,7 @@ $data = mysqli_fetch_array($query);
     <meta charset="UTF-8">
     <title>Edit Book | Nayko Library</title>
     <style>
-        /* CSS SAMA PERSIS DENGAN TAMBAH_BUKU.PHP */
+
         * { box-sizing: border-box; }
         body { font-family: Arial, Helvetica, sans-serif; background-color: #fcfcfc; color: #333; margin: 0; padding: 0; }
         .navbar { background-color: white; padding: 15px 40px; border-bottom: 1px solid #eaeaea; display: flex; justify-content: space-between; align-items: center; }

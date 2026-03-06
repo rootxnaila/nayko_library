@@ -43,21 +43,5 @@ CREATE TABLE buku (
     FOREIGN KEY (id_penerbit) REFERENCES penerbit(id_penerbit)
 );
 
--- tabel rak baca
--- dipakai buat nyimpen status baca buku (wishlist / sedang baca / selesai)
--- juga bisa isi rating dan review pribadi
-CREATE TABLE rak_baca (
-    id_rak INT AUTO_INCREMENT PRIMARY KEY,
-    id_buku INT,
-    status_baca ENUM('Wishlist', 'Sedang Dibaca', 'Selesai') DEFAULT 'Wishlist',
-    tanggal_mulai DATE,
-    tanggal_selesai DATE,
-    rating INT(1), 
-    review TEXT,
-    FOREIGN KEY (id_buku) REFERENCES buku(id_buku) ON DELETE CASCADE
-);
-
-
 INSERT INTO users (username, password, nama_lengkap) 
 VALUES ('nayko', '12345', 'Naila Rizki');
-
